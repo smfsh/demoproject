@@ -19,6 +19,7 @@ var sm ansimage.ScaleMode = 0
 func main() {
 	fmt.Println("Hello World!")
 	fmt.Println("My name is Miles")
+	fmt.Println("This is the Snyk Image:")
 
 	snyk := getImage("https://theme.zdassets.com/theme_assets/9132644/8fea1d21f84207552082e1091daebd33032edd75.png")
 	fmt.Print(snyk)
